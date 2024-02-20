@@ -1,18 +1,20 @@
 <template>
-
   <div>
     <HelloWorld msg="Hello!" />
+    <TimeHistory />
   </div>
 </template>
 
 <script>
 
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import TimeHistory from './components/TimeHistory.vue';
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    TimeHistory
   }
 }
 </script>
