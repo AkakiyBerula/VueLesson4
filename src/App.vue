@@ -1,6 +1,7 @@
 <template>
   <div>
     <HelloWorld msg="Hello!" />
+    <FormEvent />
     <TimeHistory />
   </div>
 </template>
@@ -9,12 +10,14 @@
 
 import HelloWorld from './components/HelloWorld.vue';
 import TimeHistory from './components/TimeHistory.vue';
+import FormEvent from './components/FormEvent.vue';
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    TimeHistory
+    TimeHistory,
+    FormEvent
   }
 }
 </script>
