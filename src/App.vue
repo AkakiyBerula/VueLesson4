@@ -2,7 +2,9 @@
   <div>
     <HelloWorld msg="Hello!" />
     <FormEvent />
+    <ClickHandler />
     <TimeHistory />
+
   </div>
 </template>
 
@@ -11,13 +13,15 @@
 import HelloWorld from './components/HelloWorld.vue';
 import TimeHistory from './components/TimeHistory.vue';
 import FormEvent from './components/FormEvent.vue';
+import ClickHandler from './components/ClickHandler.vue'
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     TimeHistory,
-    FormEvent
+    FormEvent,
+    ClickHandler
   }
 }
 </script>

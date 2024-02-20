@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  name: "FormEvent",
   data() {
     return {
       formData: {
