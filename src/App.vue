@@ -3,6 +3,7 @@
     <HelloWorld msg="Hello!" />
     <FormEvent />
     <ClickHandler />
+    <GenerateItems />
     <TimeHistory />
 
   </div>
@@ -13,7 +14,8 @@
 import HelloWorld from './components/HelloWorld.vue';
 import TimeHistory from './components/TimeHistory.vue';
 import FormEvent from './components/FormEvent.vue';
-import ClickHandler from './components/ClickHandler.vue'
+import ClickHandler from './components/ClickHandler.vue';
+import GenerateItems from './components/GenerateItems.vue'
 
 export default {
   name: "App",
@@ -21,7 +23,8 @@ export default {
     HelloWorld,
     TimeHistory,
     FormEvent,
-    ClickHandler
+    ClickHandler,
+    GenerateItems
   }
 }
 </script>
