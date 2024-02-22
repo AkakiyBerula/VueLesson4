@@ -2,8 +2,21 @@
   <div>
     <HelloWorld msg="Hello!" />
     <FormEvent />
+
+    <v-divider></v-divider>
+    
     <ClickHandler />
+
+    <v-divider></v-divider>
+
     <GenerateItems />
+
+    <v-divider></v-divider>
+
+    <Animation />
+
+    <v-divider></v-divider>
+
     <TimeHistory />
 
   </div>
@@ -15,7 +28,8 @@ import HelloWorld from './components/HelloWorld.vue';
 import TimeHistory from './components/TimeHistory.vue';
 import FormEvent from './components/FormEvent.vue';
 import ClickHandler from './components/ClickHandler.vue';
-import GenerateItems from './components/GenerateItems.vue'
+import GenerateItems from './components/GenerateItems.vue';
+import Animation from './components/Animation.vue'
 
 export default {
   name: "App",
@@ -24,7 +38,8 @@ export default {
     TimeHistory,
     FormEvent,
     ClickHandler,
-    GenerateItems
+    GenerateItems,
+    Animation
   }
 }
 </script>
