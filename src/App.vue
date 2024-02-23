@@ -24,6 +24,10 @@
 
       <FlexTable />
 
+      <v-divider></v-divider>
+
+      <Continents />
+
       <TimeHistory />
     </div>
   </div>
@@ -36,7 +40,8 @@ import FormEvent from './components/FormEvent.vue';
 import ClickHandler from './components/ClickHandler.vue';
 import GenerateItems from './components/GenerateItems.vue';
 import Animation from './components/Animation.vue';
-import FlexTable from './components/FlexTable.vue'
+import FlexTable from './components/FlexTable.vue';
+import Continents from './components/Continents.vue';
 
 export default {
   name: "App",
@@ -47,7 +52,8 @@ export default {
     ClickHandler,
     GenerateItems,
     Animation,
-    FlexTable
+    FlexTable,
+    Continents
   },
   data() {
     return {

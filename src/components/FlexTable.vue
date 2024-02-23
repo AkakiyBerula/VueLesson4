@@ -7,7 +7,7 @@
       </div>
       <div class="col">
         <label for="columns">Кількість стовпців:</label>
-        <input type="number" class="form-control" id="columns" min="0" max="12" v-model="columnCount">  
+        <input type="number" class="form-control" id="columns" min="0" max="12" v-model="columnCount"> 
       </div>
     </div>
 
@@ -28,6 +28,7 @@
 
 <script>
 export default {
+  name: "FlexTable",
   data() {
     return {
       rowCount: 3,
