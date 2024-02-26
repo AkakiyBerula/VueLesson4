@@ -28,6 +28,10 @@
 
       <Continents />
 
+      <v-divider></v-divider>
+
+      <pagination />
+
       <TimeHistory />
     </div>
   </div>
@@ -42,6 +46,7 @@ import GenerateItems from './components/GenerateItems.vue';
 import Animation from './components/Animation.vue';
 import FlexTable from './components/FlexTable.vue';
 import Continents from './components/Continents.vue';
+import Pagination from './components/Pagination.vue'
 
 export default {
   name: "App",
@@ -53,7 +58,8 @@ export default {
     GenerateItems,
     Animation,
     FlexTable,
-    Continents
+    Continents,
+    Pagination
   },
   data() {
     return {
