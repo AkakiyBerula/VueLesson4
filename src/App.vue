@@ -32,6 +32,10 @@
 
       <pagination />
 
+      <v-divider></v-divider>
+
+      <FilterList/>
+
       <TimeHistory />
     </div>
   </div>
@@ -46,7 +50,8 @@ import GenerateItems from './components/GenerateItems.vue';
 import Animation from './components/Animation.vue';
 import FlexTable from './components/FlexTable.vue';
 import Continents from './components/Continents.vue';
-import Pagination from './components/Pagination.vue'
+import Pagination from './components/Pagination.vue';
+import FilterList from './components/FilterList.vue';
 
 export default {
   name: "App",
@@ -59,7 +64,8 @@ export default {
     Animation,
     FlexTable,
     Continents,
-    Pagination
+    Pagination,
+    FilterList
   },
   data() {
     return {
